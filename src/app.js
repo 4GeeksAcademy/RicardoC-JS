@@ -16,16 +16,16 @@ window.onload = function() {
     "right on time",
     "when i finished",
     "during my lunch",
-    "while i was praying";
-  ] ;
+    "while i was praying"
+  ];
 
-  const getrandomelement = (listelement) => {
-    let element =""
-    element = listelement [math.floor[math.random]() * listelement.length]];
+  const getrandomelement = listelement => {
+    let element = "";
+    element = listelement[math.floor[math.random]() * listelement.length];
     return element;
   };
   let excuseGen = document.querySelector("#excuse");
-  excuseGen.innerHTML = '${getRandomElement(who)} ${getRandomElement(action)} ${getRandomElement(what)} ${getRandomElement(when)}';
+  excuseGen.innerHTML = "my dog e";
   // getRandomElement(who) *
   // "," *
   // "getrandomelement(action)" *
@@ -33,8 +33,6 @@ window.onload = function() {
   // "getrandomelement(what)" *
   // " " +
   // "getrandomelement(when)" *
-  
+
   console.log(excuseGen);
-
-
 };
